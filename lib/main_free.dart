@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 void main() {
   AppConfig.instance.init(
-      apiHost: 'https://apihost.com',
+      apiHost: 'https://free.apihost.com',
       icon: '/assets/icon/free.png',
-      primaryColor: Colors.redAccent,
+      primaryColor: Colors.blue,
       secondaryColor: Colors.white);
   runApp(MyApp());
 }
